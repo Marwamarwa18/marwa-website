@@ -1,0 +1,57 @@
+/* General */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: yellow;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 10px;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
